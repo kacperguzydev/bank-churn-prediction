@@ -2,8 +2,6 @@
 
 Predicting which bank customers are likely to leave, using a full pipeline from raw data to a deployed, interactive prediction system.
 
-**Live demo:** [dashboard link] · **API docs:** [api link]/docs
-
 ---
 
 ## Problem
@@ -110,11 +108,6 @@ Response:
   "will_churn": true
 }
 ```
-
-## Notes
-
-- Deployed on Render's free tier — the app may take 30–60 seconds to respond on first load after a period of inactivity (cold start).
-- Model is trained on the full training set for production; reported metrics come from an 80/20 stratified split for unbiased evaluation.
 
 ## Author
 
